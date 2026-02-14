@@ -1,0 +1,46 @@
+
+
+1) HashSet
+2) HashMapping
+
+
+< HASHSET > 
+
+1) Unique Store automatically 
+2) Work in O(n) time and space complexity like add() , remove() , contains() , size() , isEmpty() , clear()
+3) Doesnot maintain the Order
+4) Allows One Unique
+
+
+
+
+< HASHMAP>
+
+
+here in the hashmap two thing comes one is keys and value 
+
+1) keys represent the index
+2) Values reperent the material like data 
+3) No Ordered maintain
+
+
+Operations comes under the hashmaps 
+1) put 
+2) h.get(key) // it return value at that key 
+3) hm.remove(1) // remove at that key 
+4) hm.containskey(5); // true value at 5 key if exist else false
+5) hm.containsvalue("cyber");
+
+HashMap<Integer, String> hm = new HashMap<>();
+hm.put(1, "Java");
+hm.put(2, "Cyber");
+hm.put(3, "Python");
+System.out.println(hm.containsValue("Cyber"));  // true 
+
+
+
+
+
+
+
+
