@@ -1,1 +1,17 @@
 
+
+Collections => Collections are objects that represent groups of elements (like lists of numbers, sets of names, etc.). The Java Collections Framework defines interfaces, classes,
+and algorithms to work with them easily.
+
+
+          Iterable
+              ↓
+         Collection
+        /     |      \
+     List    Set    Queue
+
+    Map  (separate branch)  
+
+
+
+
