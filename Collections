@@ -13,5 +13,35 @@ and algorithms to work with them easily.
     Map  (separate branch)  
 
 
+Iterable (Interface)
+│
+└── Collection (Interface)
+    │
+    ├── List (Interface)
+    │   ├── ArrayList (Class)
+    │   ├── LinkedList (Class)
+    │   ├── Vector (Class)
+    │   └── Stack (Class)
+    │
+    ├── Queue (Interface)
+    │   ├── PriorityQueue (Class)
+    │   └── Deque (Interface)
+    │        └── ArrayDeque (Class)
+    │
+    └── Set (Interface)
+        ├── HashSet (Class)
+        ├── LinkedHashSet (Class)
+        └── SortedSet (Interface)
+             └── TreeSet (Class)
+
+Map (Interface)  ← Separate Branch (Not part of Collection)
+│
+├── HashMap (Class)
+├── LinkedHashMap (Class)
+├── Hashtable (Class)
+└── SortedMap (Interface)
+     └── TreeMap (Class)
+
+
 
 
