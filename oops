@@ -1,0 +1,201 @@
+
+4 pillars -
+
+
+
+
+1)                                                                                                 encapsulation
+
+
+
+
+
+
+// getter and setter 
+
+// getter example
+
+// import java.util.*;
+
+// class OOPS{
+//      private int n; 
+//     OOPS(int n){
+//         this.n=n;
+//     }
+
+//     int getN(){
+//         return n;
+//     }
+
+// }
+
+// public class Encapuslation {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = 9;
+//         OOPS ops = new OOPS(n);
+// //        System.out.println(ops.n); // fail due to private 
+//         System.out.println(ops.getN());
+//     }
+// }
+
+
+
+
+
+
+// Setter Example
+
+
+
+// import java.util.*;
+
+// class OOPS {
+//     private int n;
+
+//     OOPS(int n) {
+//         this.n = n;
+//     }
+
+//     int SetN(int value) {
+//         this.n = value;
+//         return n;
+//     }
+
+//     int GetN() {
+//         return n;
+//     }
+
+// }
+
+// public class Encapuslation {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = 9;
+//         OOPS ops = new OOPS(n);
+//         // System.out.println(ops.n); // fail due to private
+//         System.out.println(ops.SetN(8));
+//         System.out.println(ops.GetN());
+//     }
+// }
+
+
+
+
+
+
+
+
+//        Bank Problem 
+
+
+
+// withdraw 
+// deposit
+// initial balance
+
+
+
+
+// import java.util.Scanner;
+
+// class bank{
+//     private int initialamount;
+
+//     bank(int initialamount){
+//         this.initialamount = initialamount;
+//     }
+
+//     void deposit(int depositam){
+//         this.initialamount = this.initialamount+depositam;
+//     }
+
+//     void withdraw(int withdrawam){
+//         if(this.initialamount<withdrawam){
+//             System.out.println("No money left");
+//         }
+//         else{
+//         this.initialamount = this.initialamount-withdrawam;
+//         }
+//     }
+
+//     int intialam(){
+//         return initialamount;
+//     }
+// }
+
+
+
+// public class Encapuslation{
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+
+//         int initialamount = sc.nextInt();
+//         bank b = new bank(initialamount);
+//         int depositam = sc.nextInt();
+//         int withdrawam = sc.nextInt();
+        
+//         b.deposit(depositam);
+//         b.withdraw(withdrawam);
+//          b.withdraw(200);
+//         System.out.println(b.intialam());
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+//                                                                                             2 Inheritance
+
+
+
+
+
+
+
+
+
+// in the multilvl inheritance the parent call onlyitself not it child 
+
+// but chi;d hava property of parent so it call to it .
+
+
+ 
+
+
+// import java.util.*;
+
+// class Student{
+//    void S(){
+//     System.out.println("Studnet call");
+//    }
+// }
+
+// class Teacher extends Student{
+//     void T(){
+//         System.out.println("Teacher call");
+//     }
+// }
+
+
+// public class Inheritance {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         Student s = new Student();
+//         s.S();
+//         Teacher t = new Teacher();
+//         t.T();
+//         t.S();
+//     }
+// }
+
+
+
+
+
